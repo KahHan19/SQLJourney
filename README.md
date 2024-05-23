@@ -1,0 +1,2 @@
+# SQLJourney
+Notes On SQL
