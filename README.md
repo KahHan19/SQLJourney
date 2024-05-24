@@ -8,7 +8,7 @@ Resources Used:
 <br>
 
 <hr>
-__Beginner Notes__:<br>
+**Beginner Notes:**<br>
 <br>
 - Most Command such as Select, Distinct and .. are not case sensitive.<br>
 
