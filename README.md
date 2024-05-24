@@ -41,8 +41,8 @@ Output:
 5. **Logic Statements** - Similar to conditional statemetn in Python, "AND, OR and NOT"<br>
 
 
-7. **LIKE** - Set a soft boundary
-  - "%": Soft
+6. **LIKE** - Set a Softer condition
+  - "%": Soft 
   - "_": Strict
 
 ```sql
@@ -66,6 +66,20 @@ WHERE first_name LIKE Jer_
 #output: Error ( No name in the dataset starts with "Jer" fllow by 1 character )
 
 ```
+
+
+7. **GROUP BY** - Group Distinvt values in a column and compile it
+```sql
+SELECT gender, avg(age) AS avg_age
+FROM parks_and_recreation.employee_demographics
+GROUP BY gender
+
+#output:
+
+Gender    ave_age
+Female    38.50000
+Male      41.2857
+....
 
 
 
