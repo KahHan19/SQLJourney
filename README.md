@@ -1,6 +1,6 @@
 # SQLJourney
 
-Here, I include the journey and resources I used to self-learn HTML and CSS.
+Here, I include the journey and resources I used to self-learn SQL.
 
 ## Resources Used
 1. MySQL
@@ -79,7 +79,10 @@ GROUP BY gender
 Gender    ave_age
 Female    38.50000
 Male      41.2857
-....
+````
+
+Firstly dont make stupid mistake like me, where is the ";" !!!
+We first group all the rows by gender and we average all the values with gender = male or female
 
 
 
