@@ -15,7 +15,7 @@ Beginner Notes:<br>
 2. From - Which dataset are you extracting information from.
 
 example:<br>
-            SELECT * from parks_and_recreation.employee_salary;
+         SELECT * from parks_and_recreation.employee_salary;
 
 This SELECt everything(*) from the "parks_and_recreation.employee_salary" dataset and ";" indicates end of code. 
 <hr>
