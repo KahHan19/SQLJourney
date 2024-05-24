@@ -26,5 +26,26 @@ SELECT first_name, salary, salary*2 FROM parks_and_recreation.employee_salary;
 
 The second line showcases extract specific column such as first_name, salary and the value of salary*2. ( In another words it enables addition column with extract processing. )
 
+4. **Where** - Similar to "IF" in python, it sets addition contraint on what infromation to display.
+
+```sql
+SELECT first_name, salary
+FROM parks_and_recreation.employee_salary
+WHERE salary > 70000;
+
+Output:
+1	Leslie	Knope	  Deputy Director of Parks and Recreation	75000	  1
+8	Chris	  Traeger	City Manager	                          90000	  3
+```
+
+5. **Logic Statements** - Similar to conditional statemetn in Python, "AND, OR and NOT"<br>
+
+
+7. **LIKE** - Set a soft boundary
+  - "%": Soft
+  - "_": Strict
+
+
+
 
 
