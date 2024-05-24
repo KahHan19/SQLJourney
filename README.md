@@ -85,7 +85,11 @@ Firstly dont make stupid mistake like me, where is the ";" !!!
 We first group all the rows by gender and we average all the values with gender = male or female
 
 
+9. **ORDER BY** - Sort the dataset, ASC(ascending) or DESC(descending)
 
+10. **HAVING** - Similar to "WHERE" but comes after "GROUP BY"
+
+11. **LIMIT** - Limit the data shown
 
 
 
