@@ -8,8 +8,9 @@ Resources Used:
 
 
 <hr>
+<br>
 Beginner Notes:
-<hr>
+<br>
 - Most Command such as Select, Distinct and .. are not case sensitive.
 
 
@@ -21,5 +22,8 @@ example:
 SELECT * from parks_and_recreation.employee_salary;
 
 This SELECt everything(*) from the "parks_and_recreation.employee_salary" dataset and ";" indicates end of code. 
+<hr>
+
+
 
 
