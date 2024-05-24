@@ -51,13 +51,19 @@ FROM parks_and_recreation.employee_salary
 ....
 
 WHERE first_name LIKE jer%
-#output: Jerry
+#output: Jerry ( Jerry is the only name in the dataset with "jer" - something )
 
 WHERE first_name LIKE %er%
-#output: Jerry
+#output: Jerry ( Jerry is the only name in the dataset with "something" - er - "something
 
 WHERE first_name LIKE er%
-#output: None
+#output: Error ( No name in the dataset starts with "er" )
+
+WHERE first_name LIKE Jer__
+#output: Jerry ( Jerry is the only name in the dataset with "Jer" follow by 2 character )
+
+WHERE first_name LIKE Jer_
+#output: Error ( No name in the dataset starts with "Jer" fllow by 1 character )
 
 ```
 
