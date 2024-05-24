@@ -5,12 +5,10 @@ Here include the journey and resources I used to self learn HTML and CSS.<br>
 Resources Used:
 1. MySQL
 3. GitHub Dekstop (For code upload)
-
+<br>
 
 <hr>
-<br>
-Beginner Notes:
-<br>
+Beginner Notes:<br>
 - Most Command such as Select, Distinct and .. are not case sensitive.
 
 
