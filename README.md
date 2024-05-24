@@ -1,25 +1,22 @@
 # SQLJourney
 
+Here, I include the journey and resources I used to self-learn HTML and CSS.
 
-Here include the journey and resources I used to self learn HTML and CSS.<br>
-Resources Used:
-    1. MySQL
-    2. GitHub Dekstop (For code upload)
-<br>
+## Resources Used
+1. MySQL
+2. GitHub Desktop (For code upload)
 
-<hr>
-Beginner Notes:<br>
--    Most Command such as Select, Distinct and .. are not case sensitive.<br>
+---
 
-1. Select - allows you to select the specific column interested ("*" - All columns) 
-2. From - Which dataset are you extracting information from.
+## Beginner Notes
 
-example:<br>
-         SELECT * from parks_and_recreation.employee_salary;
+- Most commands such as `SELECT`, `DISTINCT`, and others are not case sensitive.
 
-This SELECt everything(*) from the "parks_and_recreation.employee_salary" dataset and ";" indicates end of code. 
-<hr>
+### Basic SQL Commands
+1. **SELECT** - Allows you to select the specific column of interest (`*` selects all columns).
+2. **FROM** - Specifies the dataset from which you are extracting information.
 
+#### Example:
 
-
-
+```sql
+SELECT * FROM parks_and_recreation.employee_salary;
