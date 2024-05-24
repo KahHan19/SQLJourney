@@ -9,8 +9,7 @@ Resources Used:
 
 <hr>
 **Beginner Notes:
-**<br>
-- Most Command such as Select, Distinct and .. are not case sensitive.<br>
+**- Most Command such as Select, Distinct and .. are not case sensitive.<br>
 
 
 
