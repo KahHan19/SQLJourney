@@ -15,8 +15,11 @@ Here, I include the journey and resources I used to self-learn HTML and CSS.
 ### Basic SQL Commands
 1. **SELECT** - Allows you to select the specific column of interest (`*` selects all columns).
 2. **FROM** - Specifies the dataset from which you are extracting information.
+3. **;** - Represent end of code.
 
 #### Example:
 
 ```sql
 SELECT * FROM parks_and_recreation.employee_salary;
+
+
