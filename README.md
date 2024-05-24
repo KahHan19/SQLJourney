@@ -45,6 +45,24 @@ Output:
   - "%": Soft
   - "_": Strict
 
+```sql
+SELECT first_name, salary
+FROM parks_and_recreation.employee_salary
+....
+
+WHERE first_name LIKE jer%
+#output: Jerry
+
+WHERE first_name LIKE %er%
+#output: Jerry
+
+WHERE first_name LIKE er%
+#output: None
+
+```
+
+
+
 
 
 
